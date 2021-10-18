@@ -1,0 +1,20 @@
+/* TEAM */
+
+Author: Andrew Reva
+Site: http://reff.info
+Twitter: ndrwrv
+Location: Kyiv, Ukraine
+
+/* THANKS */
+
+html5boilerplate: http://html5boilerplate.com/
+BEM Methodology: https://ru.bem.info/
+borschik: https://github.com/borschik/borschik
+GutHub: https:github.com
+
+/* SITE */
+
+Standards: HTML5, CSS3, JavaScript
+Components: Gulp, NodeJS, NPM, PugJS, SCSS, jQuery
+Language: Russian / English
+Software: PhpStorm, Sublime Text, Sublime Merge
