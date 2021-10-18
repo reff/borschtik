@@ -1,0 +1,44 @@
+{
+  "name": "Borschtik",
+  "version": "0.1.0",
+  "description": "README.md",
+  "main": "index.js",
+  "directories": {
+    "src": "src",
+    "dist": "dist",
+    "test": "test"
+  },
+  "scripts": {
+    "clean": "gulp clean",
+    "html": "gulp pug",
+    "css": "gulp scss",
+    "js": "gulp js",
+    "minify": "gulp minify",
+    "optimize images": "gulp imagemin",
+    "run in browser": "gulp"
+  },
+  "author": "Andrew Reva",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-data": "^1.3.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-html-bem-validator": "^1.0.5",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.39.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0"
+  }
+}

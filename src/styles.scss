@@ -1,0 +1,5 @@
+// Importing common SCSS libraries
+@import './.scss/*';
+
+// Importing all BEM block .scss files
+@import './b_/**/*.scss';

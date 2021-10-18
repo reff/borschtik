@@ -1,0 +1,57 @@
+// -----------------------------------------------------------------------------
+// Mixins
+// -----------------------------------------------------------------------------
+
+@mixin on-mobile {
+    @media (max-width: 639px) {
+        @content;
+    }
+}
+
+@mixin on-tablet {
+    @media (min-width: 640px) and (max-width: 1023px) {
+        @content;
+    }
+}
+
+@mixin on-handheld {
+    @media (max-width: 1023px) {
+        @content;
+    }
+}
+
+@mixin on-middle {
+    @media (min-width: 640px) and (max-width: 1365px) {
+        @content;
+    }
+}
+
+@mixin on-desktop {
+    @media (min-width: 1024px) and (max-width: 1365px) {
+        @content;
+    }
+}
+
+@mixin on-widescreen {
+    @media (min-width: 1366px) {
+        @content;
+    }
+}
+
+@mixin on-tabletop {
+    @media (min-width: 1024px){
+        @content;
+    }
+}
+
+@mixin on-landscape {
+    @media (orientation: landscape){
+        @content;
+    }
+}
+
+@mixin on-portrait {
+    @media (orientation: portrait){
+        @content;
+    }
+}
