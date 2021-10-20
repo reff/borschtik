@@ -2,6 +2,14 @@
 
 ---
 
+## 0.1.4 ß (October 20, 2021)
+
++ Added `./.build/copier.js`
+
+* Changed `gulpfile.js`
+
+---
+
 ## 0.1.3 ß (October 18, 2021)
 
 + Added `humans.txt`

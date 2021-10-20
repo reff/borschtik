@@ -41,4 +41,7 @@ exports.js = js.js
 const imagemin = require('./.build/imagemin')
 exports.minify = imagemin.imagemin
 
-exports.default = parallel(pug.pug, scss.scss, js.js, imagemin.imagemin, browserSyncFn)
+const copier = require('./.build/copier')
+exports.copy = copier.copy
+
+exports.default = series(parallel(pug.pug, scss.scss, js.js, imagemin.imagemin, copier.copy), browserSyncFn)
