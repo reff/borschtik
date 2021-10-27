@@ -2,6 +2,12 @@
 
 ---
 
+## 0.1.5 ß (October 28, 2021)
+
+* Changed `.stylelintrc` configuration file: added linting exceptions for @at-rules that might be used in .scss files
+
+---
+
 ## 0.1.4 ß (October 20, 2021)
 
 + Added `./.build/copier.js`
