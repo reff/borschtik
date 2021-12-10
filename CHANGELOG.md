@@ -2,10 +2,16 @@
 
 ---
 
+## 0.2.2 ß (December 10, 2021)
+
++ Added `/src/b_/page/page.js` file: .no-js -> .js class for the root HTML element
+
+---
+
 ## 0.2.1 ß (December 10, 2021)
 
-* `./build/copier.js` Gulp task fixed
-* `.template.pug` file modified: removed jQuery library by default (keep third-party libraries in the `/src/vendor` folder)
+* Changed `/.build/copier.js` Gulp task fixed
+* Changed `.template.pug` file modified: removed jQuery library by default (keep third-party libraries in the `/src/vendor` folder)
 
 ---
 
