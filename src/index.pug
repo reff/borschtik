@@ -1,13 +1,9 @@
-doctype html
-html.no-js(lang='ru')
-    head
-        meta(charset='UTF-8')
-        title сБорщик v0.1.0
-        link(rel='author' href='humans.txt')
-        link(rel='stylesheet' href='css/styles.css')
-    body.page
+extends .template
 
-        include ./b_/panel/panel
+block pageTitle
+    title Borshtik
 
-        script(type='text/javascript', src='https://code.jquery.com/jquery-3.6.0.min.js')
-        script(type='text/javascript', src='js/script.js')
+block pageHeader
+    include b_/panel/panel
+
+block pageBody

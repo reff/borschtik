@@ -10,6 +10,7 @@ Location: Kyiv, Ukraine
 html5boilerplate: http://html5boilerplate.com/
 BEM Methodology: https://ru.bem.info/
 borschik: https://github.com/borschik/borschik
+Redacted font: https://github.com/christiannaths/Redacted-Font
 GutHub: https:github.com
 
 /* SITE */

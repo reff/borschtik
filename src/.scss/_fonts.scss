@@ -1,3 +1,63 @@
 // -----------------------------------------------------------------------------
 // Embedded fonts
 // -----------------------------------------------------------------------------
+
+// ---
+// Redacted font: https://github.com/christiannaths/Redacted-Font
+// ---
+
+  @font-face {
+    font-family: 'Redacted';
+    src: url('/fonts/redacted/redacted-regular.eot');
+    src: url('/fonts/redacted/redacted-regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/redacted/redacted-regular.woff2') format('woff2'),
+    url('/fonts/redacted/redacted-regular.woff') format('woff'),
+    url('/fonts/redacted/redacted-regular.ttf') format('truetype'),
+    url('/fonts/redacted/redacted-regular.svg#redactedregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Redacted Script';
+    src: url('/fonts/redacted/redacted-script-bold.eot');
+    src: url('/fonts/redacted/redacted-script-bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/redacted/redacted-script-bold.woff2') format('woff2'),
+    url('/fonts/redacted/redacted-script-bold.woff') format('woff'),
+    url('/fonts/redacted/redacted-script-bold.ttf') format('truetype'),
+    url('/fonts/redacted/redacted-script-bold.svg#redacted_scriptbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Redacted Script';
+    src: url('/fonts/redacted/redacted-script-light.eot');
+    src: url('/fonts/redacted/redacted-script-light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/redacted/redacted-script-light.woff2') format('woff2'),
+    url('/fonts/redacted/redacted-script-light.woff') format('woff'),
+    url('/fonts/redacted/redacted-script-light.ttf') format('truetype'),
+    url('/fonts/redacted/redacted-script-light.svg#redacted_scriptlight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Redacted Script';
+    src: url('/fonts/redacted/redacted-script-regular.eot');
+    src: url('/fonts/redacted/redacted-script-regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/redacted/redacted-script-regular.woff2') format('woff2'),
+    url('/fonts/redacted/redacted-script-regular.woff') format('woff'),
+    url('/fonts/redacted/redacted-script-regular.ttf') format('truetype'),
+    url('/fonts/redacted/redacted-script-regular.svg#redacted_scriptregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+// ---
+
+
+
+// ---
+// Add your custom fonts below
+// ---

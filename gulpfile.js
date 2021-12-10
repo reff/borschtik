@@ -1,4 +1,4 @@
-const { src, dest, task, watch, parallel, series } = require('gulp')
+const { watch, parallel, series } = require('gulp')
 
 const pug = require('./.build/pug');
 exports.pug = pug.pug;
@@ -20,7 +20,8 @@ function browserSyncFn() {
     		}
 		},
 		notify: false,
-		online: true
+		online: true,
+        open: false
 	})
 	watch('./src/**/*.pug', pug.pug).on('change', reload, {stream: true})
 	watch('./src/b_/**/*.js', js.js).on('change', reload, {stream: true})

@@ -1,5 +1,5 @@
 {
-  "name": "Borschtik",
+  "name": "borschtik",
   "version": "0.1.0",
   "description": "README.md",
   "main": "index.js",
@@ -9,13 +9,13 @@
     "test": "test"
   },
   "scripts": {
-    "clean": "gulp clean",
-    "html": "gulp pug",
-    "css": "gulp scss",
-    "js": "gulp js",
-    "minify": "gulp minify",
-    "optimize images": "gulp imagemin",
-    "run in browser": "gulp"
+    "Test: Clean": "gulp clean",
+    "Test: HTML": "gulp pug",
+    "Test: CSS": "gulp scss",
+    "Test: JS": "gulp js",
+    "Test: Copy files": "gulp copy",
+    "Test: Minify images": "gulp minify",
+    "Test: Preview": "gulp"
   },
   "author": "Andrew Reva",
   "license": "UNLICENSED",

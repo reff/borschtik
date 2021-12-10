@@ -1,4 +1,4 @@
-const { src, dest, task, watch, parallel, series } = require('gulp')
+const { src, dest } = require('gulp')
 
 function copyRootFolderFiles() {
     return src([
@@ -15,7 +15,7 @@ function copyRootFolderFiles() {
 }
 
 function copyFonts() {
-    return src('./src/fonts/*.*')
+    return src('./src/fonts/**/*.*')
         .pipe(dest('./test/fonts'))
 }
 
