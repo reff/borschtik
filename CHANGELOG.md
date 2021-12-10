@@ -2,6 +2,12 @@
 
 ---
 
+## 0.2.3 ß (December 10, 2021)
+
+* Changed `/.template.pug` file: minor fix
+
+---
+
 ## 0.2.2 ß (December 10, 2021)
 
 + Added `/src/b_/page/page.js` file: .no-js -> .js class for the root HTML element
