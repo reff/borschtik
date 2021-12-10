@@ -1,4 +1,4 @@
-# сБорщик v 0.1.6 ß
+# сБорщик
 
 Автоматизированный сБорщик статических файлов для веб. Под капотом, всем этим безобразием рулит [Gulp](https://gulpjs.com/). Статические файлы собираются из исходников на [pug](https://pugjs.org/), [scss](https://sass-lang.com/) и ванильного JS (в данный момент без [CoffeeScript](https://coffeescript.org/), [TypeScript](https://www.typescriptlang.org/) и прочих плюшек, которые, возможно, появятся в будущем).
 
