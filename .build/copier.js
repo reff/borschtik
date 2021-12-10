@@ -14,6 +14,11 @@ function copyRootFolderFiles() {
         .pipe(dest('./test'))
 }
 
+function copyVendorLibraries() {
+    return src('./src/vendor/**/*.*')
+        .pipe(dest('./test/vendor'))
+}
+
 function copyFonts() {
     return src('./src/fonts/**/*.*')
         .pipe(dest('./test/fonts'))
@@ -21,6 +26,7 @@ function copyFonts() {
 
 function fileCopier() {
     copyFonts()
+    copyVendorLibraries()
     return copyRootFolderFiles()
 }
 

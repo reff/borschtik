@@ -2,6 +2,13 @@
 
 ---
 
+## 0.2.1 ß (December 10, 2021)
+
+* `./build/copier.js` Gulp task fixed
+* `.template.pug` file modified: removed jQuery library by default (keep third-party libraries in the `/src/vendor` folder)
+
+---
+
 ## 0.2.0 ß (December 10, 2021)
 
 + Added `/.template.pug` template file
